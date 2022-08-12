@@ -12,17 +12,7 @@
     </div>
 
 
-    .footer{
-position: static;
-width: 1440px;
-height: 100px;
-margin: 100px;
-left: 0;
-background: #F9F7FE;
-}
+    
 
- <div class="footer">
-      <img class="logo-1"  src="images/logo.jpeg" alt="logotip"/>
-
-    </div>
+ 
     

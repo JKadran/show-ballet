@@ -40,32 +40,24 @@ color: #662EED;
 }
 
 .logo {
-width: 120px;
+width: 140px;
 position: absolute;
-left: 9.72%;
-right: 79.86%;
-top: 1.97%;
-bottom: 97.02%;
-height: 116px;
-border-radius: 5px;
-}
-.logo-1 {
-width: 120px;
-position: absolute;
-height: 23.75px;
 left: 9.72%;
 right: 89%;
-top: 2420.92px;
+top: 30.92px;
+height: 75px;
 border-radius: 5px;
 }
 
+
 .header-homepage{
-background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+background: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
 position: absolute;
 width: 1440px;
 height: 265px;
 left: 0px;
 top: 135px;
+
 }
 small{
   font-family: var(--main-font-family);
@@ -78,6 +70,7 @@ font-size: 72px;
 line-height: 98px;
 text-align: center;
 color: #FFFFFF;
+
 }
 .p-about{
 font-family: var(--main-font-family);
@@ -87,6 +80,7 @@ line-height: 35px;
 text-align: center;
 color:white;
 margin: 4px 439px 46px 441px;
+display: flex;
 }
 
 .btn-home{
@@ -129,8 +123,44 @@ font-weight: 700;
 font-size: 28px;
 line-height: 38px;
 color: #272142;
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+text-align: left;
+
 }
+.footer{
+position: static;
+width: 1440px;
+height: 100px;
+margin-top: 100px;
+background: #F9F7FE;
+}
+
+.logo-1 {
+width: 140px;
+position: absolute;
+height: 75px;
+left: 9.72%;
+right: 89%;
+top: 2229px;
+border-radius: 5px;
+}
+
+.icons{
+margin: 41px 669px 41px 576px;
+width: 14px;
+height: 18px;
+display: flex;
+}
+i{
+  margin: 30px;
+}
+
+.year{
+position: absolute;
+margin: 39px 669px 41px 576px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+color: #272142;
+}
+
