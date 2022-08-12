@@ -1,0 +1,28 @@
+<img src="images/main-pic.jpg" class="main-pic" width="650"; height="265"/>
+
+<div class="gallery">
+        <div class="container text-center">
+      <div class="row row-cols-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+      </div>
+    </div>
+
+
+    .footer{
+position: static;
+width: 1440px;
+height: 100px;
+margin: 100px;
+left: 0;
+background: #F9F7FE;
+}
+
+ <div class="footer">
+      <img class="logo-1"  src="images/logo.jpeg" alt="logotip"/>
+
+    </div>
+    

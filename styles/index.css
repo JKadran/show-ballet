@@ -1,6 +1,136 @@
 :root{
     --main-background-color:#E5E5E5;
-    --main-font-family: 'Roboto';
-    --primary-font-color:#ffff;
+    --main-font-family:Arial, Helvetica, sans-serif;
+    --primary-color:#ffff;
     
+}
+
+body{
+  background:var(--primary-color);
+}
+
+.navbar {
+    position:absolute;
+    width: 1440px;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    
+}
+  
+.menu {
+position: absolute;
+width: 302px;
+height: 22px;
+left: 998px;
+top: 51px;
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+}
+.menu-a {
+color: #272142;
+text-decoration: none;
+}
+.menu-a :hover{
+color: #662EED;
+}
+
+.logo {
+width: 120px;
+position: absolute;
+left: 9.72%;
+right: 79.86%;
+top: 1.97%;
+bottom: 97.02%;
+height: 116px;
+border-radius: 5px;
+}
+.logo-1 {
+width: 120px;
+position: absolute;
+height: 23.75px;
+left: 9.72%;
+right: 89%;
+top: 2420.92px;
+border-radius: 5px;
+}
+
+.header-homepage{
+background: linear-gradient(180.2deg, rgb(120, 85, 137) -6.9%, rgb(35, 9, 31) 76.7%);
+position: absolute;
+width: 1440px;
+height: 265px;
+left: 0px;
+top: 135px;
+}
+small{
+  font-family: var(--main-font-family);
+}
+h1{
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 98px;
+text-align: center;
+color: #FFFFFF;
+}
+.p-about{
+font-family: var(--main-font-family);
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+color:white;
+margin: 4px 439px 46px 441px;
+}
+
+.btn-home{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 30px;
+position: absolute;
+height: 53px;
+width: 200px;
+left: 620px;
+top: 650px;
+border-radius: 50px;
+padding: 18px, 30px, 18px, 30px;
+margin-top: 133px;
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+.gallery {
+margin-top: 500px;
+}
+
+.gallery-pic{
+width: 560px;
+height: 350px;
+border-radius: 12px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.description {
+width: 560px;
+height: 38px;
+font-family: var(--main-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+color: #272142;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 }
